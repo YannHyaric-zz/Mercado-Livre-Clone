@@ -1,5 +1,6 @@
 import React from "react";
 import tshirt from "../../assets/tshirt.png";
+import SellerInfo from '../SellerInfo'
 import {
   Container,
   Row,
@@ -22,14 +23,14 @@ const Product: React.FC = () => {
           <Gallery>
             <img alt="T-Shirt" src={tshirt} />
           </Gallery>
-          {/*<Info/>
+          <Info/>
 
         </Column>
-          <ProductAction/>
+          {/*<ProductAction/>*/}
           <SellerInfo/>
           <Warranty/>
 
-        <Column>*/}
+        <Column>
         </Column>
       </Panel>
     </Container>

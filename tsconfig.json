@@ -4,7 +4,8 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es2017"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -17,9 +18,22 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+
+        "newLine": "LF",
+        "outDir": "./lib/",
+        "sourceMap": true,
+        "declaration": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src"
+    "src/**/*"
+  ],
+  "exclude": [
+      ".git",
+      "node_modules"
   ]
 }
