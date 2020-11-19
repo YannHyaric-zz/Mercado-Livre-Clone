@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e463688217af34555ed03d1e0a9c14f7",
+    "revision": "f8b39eb28df3f36b7393cba9e1e70283",
     "url": "/Mercado-Livre-Clone/index.html"
   },
   {
-    "revision": "ad6548b0880b2f5fabd4",
-    "url": "/Mercado-Livre-Clone/static/js/2.3fc06e05.chunk.js"
+    "revision": "9cdcf6b47e5d062301a2",
+    "url": "/Mercado-Livre-Clone/static/js/2.4bffbec9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Mercado-Livre-Clone/static/js/2.3fc06e05.chunk.js.LICENSE.txt"
+    "url": "/Mercado-Livre-Clone/static/js/2.4bffbec9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0eee71d774da2443923b",
-    "url": "/Mercado-Livre-Clone/static/js/main.bd57ce0a.chunk.js"
+    "revision": "5341ea7c41f6c9bbcd81",
+    "url": "/Mercado-Livre-Clone/static/js/main.38dfc88e.chunk.js"
   },
   {
     "revision": "e50c0edde61bed310adf",

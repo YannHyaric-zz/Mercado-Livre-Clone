@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Mercado-Livre-Clone/precache-manifest.76930a1eeb160b73f1411b70d34dc785.js"
+  "/Mercado-Livre-Clone/precache-manifest.a4799d06407f06059f6932506b4c206a.js"
 );
 
 self.addEventListener('message', (event) => {
