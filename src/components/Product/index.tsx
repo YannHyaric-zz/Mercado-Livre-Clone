@@ -1,6 +1,8 @@
 import React from "react";
 import tshirt from "../../assets/tshirt.png";
 import SellerInfo from '../SellerInfo'
+import ProductAction from '../ProductAction'
+
 import {
   Container,
   Row,
@@ -26,11 +28,10 @@ const Product: React.FC = () => {
           <Info/>
 
         </Column>
-          {/*<ProductAction/>*/}
+        <Column>
+          <ProductAction/>
           <SellerInfo/>
           <Warranty/>
-
-        <Column>
         </Column>
       </Panel>
     </Container>

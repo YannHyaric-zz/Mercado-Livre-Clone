@@ -84,10 +84,49 @@ export const ReputationTermometer = styled.ol`
   }
 `;
 
-export const ReputationRow = styled.div``;
+export const ReputationRow = styled.div`
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+
+  > div {
+    width: 33%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    > strong {
+      font-size: 24px;
+      font-weight: normal;
+      height: 30px;
+    }
+    > span {
+      font-size: 12px;
+    }
+    position: relative;
+    & + div {
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 36px;
+        border-left: 1px solid var(--color-border);
+      }
+    }
+  }
+`;
 
 export const SuportIcon = styled(HiOutlineChatAlt2)``;
 
 export const ClockIcon = styled(HiOutlineClock)``;
 
-export const More = styled.a``;
+export const More = styled.a`
+  margin-top: 24px;
+  color: var(--color-blue);
+  font-weight: 600;
+  text-decoration: none;
+`;

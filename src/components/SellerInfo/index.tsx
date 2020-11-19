@@ -19,12 +19,11 @@ const SellerInfo: React.FC = () => {
       <Title>Informações do Vendedor</Title>
 
       <LocationCard>
-        <LocationIcon>
+        <LocationIcon/>
           <div>
             <p>Localização</p>
             <strong>Juiz de Fora</strong>
           </div>
-        </LocationIcon>
       </LocationCard>
 
       <ReputationCard>

@@ -27,6 +27,7 @@ export const Row = styled.div`
 export const Panel = styled.div`
   background: white;
   box-shadow: var(--panel-shadow);
+  
   display: grid;
   grid-template-columns: 65fr 35fr;
 `;
